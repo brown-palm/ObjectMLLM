@@ -42,7 +42,7 @@ To install `flash-attn`, run
 pip install flash-attn==2.5.9 --no-build-isolation
 ```
 
-If you find it very slow, an alternative way is to install pre-built `flash-attn` wheels. We recommend you to install a wheel version compatible with your machine from https://github.com/mjun0812/flash-attention-prebuild-wheels. For example,
+If you find it very slow, an alternative way is to install pre-built `flash-attn` wheels. We recommend you to install a wheel version compatible with your machine from [flash-attention-prebuild-wheels](https://github.com/mjun0812/flash-attention-prebuild-wheels). For example,
 ```
 pip install https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.0.8/flash_attn-2.5.9+cu118torch2.4-cp310-cp310-linux_x86_64.whl
 ```
