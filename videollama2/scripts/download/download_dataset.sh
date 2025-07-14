@@ -1,2 +1,2 @@
 gdown 1TLY0Qa0c7lFWokinBFgGX5qdIeajQ0_t
-unzip videollama2_checkpoints.zip
+unzip videollama2_datasets.zip

@@ -1,1 +1,6 @@
 *__pycache__*
+llama3/checkpoint_released
+llama3/data
+videollama2/checkpoint_released
+videollama2/data
+*/*.zip

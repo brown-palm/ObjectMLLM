@@ -18,7 +18,7 @@ This repository is the official implementation for the paper [How Can Objects He
 
 ![teaser](assests/teaser.png)
 
-## Install
+## ⚙️ Install
 ### Create an Environment
 ```
 git clone git@github.com:brown-palm/ObjectMLLM.git
@@ -45,7 +45,7 @@ pip install https://github.com/mjun0812/flash-attention-prebuild-wheels/releases
 ```
 
 
-## ObjectMLLM with LLaMA3 Backbone
+## 🦙 ObjectMLLM with LLaMA3 Backbone
 
 ### Data Preparation
 
@@ -98,7 +98,7 @@ Our evaluation scripts are in [`llama3/scripts/eval`](llama3/scripts/eval). They
 
 To evaluate our released checkpoints, please set `CHECKPOINT_DIR=checkpoint_released`. To evaluate checkpoints reproduced by our training scripts, set `CHECKPOINT_DIR=checkpoint`.
 
-## ObjectMLLM with VideoLLaMA2 Backbone
+## 🤖 ObjectMLLM with VideoLLaMA2 Backbone
 
 ### Data Preparation
 
@@ -137,11 +137,11 @@ Our evaluation scripts are in [`videollama2/scripts/eval`](videollama2/scripts/e
 To evaluate our released checkpoints, please set `CHECKPOINT_DIR=checkpoint_released`. To evaluate checkpoints reproduced by our training scripts, set `CHECKPOINT_DIR=checkpoint`.
 
 
-## Acknowledgements
+## 👍 Acknowledgements
 
 This repo is built upon [Vamos](https://github.com/brown-palm/Vamos) and [VideoLLaMA2](https://github.com/DAMO-NLP-SG/VideoLLaMA2).
 
-## Citation
+## 📑 Citation
 ```
 @misc{tang2025objectmllm,
     title={How Can Objects Help Video-Language Understanding?}, 
@@ -153,5 +153,5 @@ This repo is built upon [Vamos](https://github.com/brown-palm/Vamos) and [VideoL
 }
 ```
 
-## LICENSE
+## 🔒 LICENSE
 ObjectMLLM is released under [MIT License](LICENSE).
