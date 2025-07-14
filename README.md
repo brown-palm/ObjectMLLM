@@ -1,5 +1,7 @@
 <h1 align="center">
-[ICCV 2025] How Can Objects Help Video-Language Understanding?
+🔵 ICCV 2025
+
+How Can Objects Help Video-Language Understanding?
 </h1>
 
 <h4 align="center">
