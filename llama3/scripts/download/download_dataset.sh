@@ -1,0 +1,2 @@
+gdown 10OBYMpsONUjd9GZ_0K7TgY3jBN6cBNs6
+unzip llama3_datasets.zip

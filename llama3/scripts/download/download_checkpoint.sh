@@ -1,0 +1,2 @@
+gdown 1ZUt2f_iYFL-nCLXwWqvYnJS9p7to1Md0
+unzip llama3_checkpoints.zip
