@@ -27,7 +27,7 @@ torchrun --rdzv_endpoint 127.0.0.1:1234 --nproc_per_node 1 eval.py \
 torchrun --rdzv_endpoint 127.0.0.1:1234 --nproc_per_node 1 eval.py \
 --num_workers 16 \
 --llama_model_path $model_path \
---resume ./$CHECKPOINT_DIR/intentqa_cap/checkpoint_best.pth \
+--resume ./$CHECKPOINT_DIR/intentqa_cap_box/checkpoint_best.pth \
 --max_seq_len 2100 \
 --batch_size 1 \
 --dataset intentqa \
@@ -42,7 +42,7 @@ torchrun --rdzv_endpoint 127.0.0.1:1234 --nproc_per_node 1 eval.py \
 torchrun --rdzv_endpoint 127.0.0.1:1234 --nproc_per_node 1 eval.py \
 --num_workers 16 \
 --llama_model_path $model_path \
---resume ./$CHECKPOINT_DIR/intentqa_cap_box/checkpoint_best.pth \
+--resume ./$CHECKPOINT_DIR/intentqa_vis_cap_box/checkpoint_best.pth \
 --max_seq_len 2100 \
 --batch_size 1 \
 --dataset intentqa \
