@@ -64,5 +64,5 @@ torchrun --rdzv_endpoint 127.0.0.1:1234 --nproc_per_node 1 eval.py \
 --use_cap \
 --use_box \
 --box_format textual \
---output_dir ./checkpoint/ptest_vis_cap_box \
+--output_dir ./$CHECKPOINT_DIR/ptest_vis_cap_box \
 --project_name objectmllm_ptest
