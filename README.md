@@ -97,7 +97,7 @@ This will download and unzip the checkpoints to `llama3/checkpoint_released`.
 
 ### Evaluation
 
-Our evaluation scripts are in [`llama3/scripts/eval`](llama3/scripts/eval). They are executable on a single GPU. You may enlarge `--nproc_per_node` to use multiple GPUs to speed up. 
+Our evaluation scripts are in [`llama3/scripts/eval`](llama3/scripts/eval). They are executable on a single 40G GPU (e.g. A6000). You may enlarge `--nproc_per_node` to use multiple GPUs to speed up. 
 
 To evaluate our released checkpoints, please set `CHECKPOINT_DIR=checkpoint_released`. To evaluate checkpoints reproduced by our training scripts, set `CHECKPOINT_DIR=checkpoint`.
 
@@ -135,7 +135,7 @@ This will download and unzip the checkpoints to `videollama2/checkpoint_released
 
 ### Evaluation
 
-Our evaluation scripts are in [`videollama2/scripts/eval`](videollama2/scripts/eval). They are executable on a single GPU.
+Our evaluation scripts are in [`videollama2/scripts/eval`](videollama2/scripts/eval). They are executable on a single 24G GPU (e.g., GeForce 3090).
 
 To evaluate our released checkpoints, please set `CHECKPOINT_DIR=checkpoint_released`. To evaluate checkpoints reproduced by our training scripts, set `CHECKPOINT_DIR=checkpoint`.
 
