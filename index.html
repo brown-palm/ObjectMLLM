@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="SAGE: A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding">
-  <meta property="og:title" content="SAGE: A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding"/>
-  <meta property="og:description" content="SAGE: A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding"/>
-  <meta property="og:url" content="https://brown-palm.github.io/SAGE/"/>
+  <meta name="description" content="How Can Objects Help Video-Language Understanding?">
+  <meta property="og:title" content="How Can Objects Help Video-Language Understanding?"/>
+  <meta property="og:description" content="How Can Objects Help Video-Language Understanding?"/>
+  <meta property="og:url" content="https://brown-palm.github.io/ObjectMLLM/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/favicon.ico" />
   <meta property="og:image:width" content="1200"/>
@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>SAGE: A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding</title>
+  <title>How Can Objects Help Video-Language Understanding?</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -51,20 +51,21 @@
       <div class="container is-max-widescreen">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-2 publication-title">SAGE: A Unified Framework for Generalizable Object State Recognition with State-Action Graph Embedding</h1>
+            <h1 class="title is-2 publication-title"><a href="https://iccv.thecvf.com/Conferences/2025" target="_blank">ICCV 2025</a></h1>
+            <h1 class="title is-2 publication-title">How Can Objects Help Video-Language Understanding?</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=Y_IbB6MAAAAJ&hl=en&oi=ao" target="_blank">Yuan Zang</a>,&nbsp;&nbsp;
-              </span>
               <span class="author-block">
                 <a href="https://zitiantang.github.io/" target="_blank">Zitian Tang</a>,&nbsp;&nbsp;
               </span>
               <span class="author-block">
-                <a href="https://brown-palm.github.io/SAGE/" target="_blank">Junho Cho</a>,&nbsp;&nbsp;
+                <a href="https://wang-sj16.github.io/" target="_blank">Shijie Wang</a>,&nbsp;&nbsp;
               </span>
               <span class="author-block">
-                <a href="https://brown-palm.github.io/SAGE/" target="_blank">Jaewook Yoo</a>,&nbsp;&nbsp;
+                <a href="https://brown-palm.github.io/ObjectMLLM/" target="_blank">Junho Cho</a>,&nbsp;&nbsp;
+              </span>
+              <span class="author-block">
+                <a href="https://brown-palm.github.io/ObjectMLLM/" target="_blank">Jaewook Yoo</a>,&nbsp;&nbsp;
               </span>
               <span class="author-block">
                 <a href="https://chensun.me/" target="_blank">Chen Sun</a>
@@ -79,23 +80,23 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://brown-palm.github.io/SAGE/" target="_blank"
+                  <a href="https://arxiv.org/abs/2504.07454" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv (Coming soon)</span>
+                  <span>arXiv</span>
                 </a>
               </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://brown-palm.github.io/SAGE/" target="_blank"
+                    <a href="https://github.com/brown-palm/ObjectMLLM" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code (Coming soon)</span>
+                    <span>Code</span>
                   </a>
                 </span>
 
@@ -133,7 +134,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Recognizing the physical states of objects and their transformations within videos is crucial for structured video understanding and enabling robust real-world applications, such as robotic manipulation. However, pretrained vision-language models often struggle to capture these nuanced dynamics and their temporal context, and specialized object state recognition frameworks struggle with generalizing to unseen actions or objects. We introduce SAGE (State-Action Graph Embeddings), a novel framework that offers a unified model of physical state transitions by decomposing states into fine-grained, language-described visual concepts that are sharable across different objects and actions. SAGE initially leverages Large Language Models to construct a State-Action Graph, which is then multimodally refined using Vision-Language Models. Extensive experimental results show that our method significantly outperforms existing baselines, generalizes effectively to unseen objects and actions in open-world settings. Our method improves the prior state-of-the-art by as much as 14.6% on novel state recognition with less than 5% of its inference time. Our code and data will be publicly released.
+            How multimodal large language models (MLLMs) perceive the visual world remains a mystery. To one extreme, object and relation modeling may be implicitly implemented with inductive biases, for example by treating objects as tokens. To the other extreme, empirical results reveal the surprising finding that simply performing visual captioning, which tends to ignore spatial configuration of the objects, serves as a strong baseline for video understanding. We aim to answer the question: how can objects help video-language understanding in MLLMs? We tackle the question from the object representation and adaptation perspectives. Specifically, we investigate the trade-off between representation expressiveness (e.g., distributed versus symbolic) and integration difficulty (e.g., data-efficiency when learning the adapters). Through extensive evaluations on five video question answering datasets, we confirm that explicit integration of object-centric representation remains necessary, and the symbolic objects can be most easily integrated while being performant for question answering. We hope our findings can encourage the community to explore the explicit integration of perception modules into MLLM design.
           </p>
         </div>
       </div>
@@ -203,24 +204,17 @@
 <section class="hero is-small">
   <div class="hero-body" style="font-size: large;">
     <div class="container is-max-widescreen">
-      <h2 class="title is-3" style="width: 100%; margin: 0 auto;">SAGE: Stage-Action Graph Embeddings</h2>
+      <h2 class="title is-3" style="width: 100%; margin: 0 auto;">Motivation</h2>
       <br>
       <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          We introduce State-Action Graph Embeddings (SAGE), a novel framework to capture the the physical state transtions of objects in videos.
-          SAGE leverages the knowledge of LLMs to identify a set of object states under an action and further decompose them into fine-grained visual concepts.
-          The visual concepts of each state are encoded and combined together to serve as an informative object state embeddings.
+          In the era of MLLMs, anything that can be tokenized has the potential to serve as a valid representation.
+          Along the spectrum are two extremes: those that project arbitrary distributed representations to the input space of LLMs, and those that model the visual world as interpretable concepts or captions.
+          It is open to debate whether they can effectively convey the complexity of the visual world to an LLM reasoner.
+          For example, video captions may struggle to describe the spatial and temporal configurations of objects.
+          We hypothesize that explicit object-centric recognition and modeling remains essential to the success of MLLMs. We seek to answer the question, <b>how can objects help video-language understanding in MLLMs</b>, from two perspectives: <b>representation and adaptation</b>. 
         </p>
       <br> 
-      <img src="static/images/teaser.png" alt="annotation" style="width: 70%; height: auto; display: block; margin: 0 auto;"/>
-      <br>
-      <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          With the help of the LLM, we construct a graph for the visual concepts, object states, and actions.
-          This graph can also be refined by the VLMs after the first round of training.
-          Because the visual concepts can be shared between different object states,
-          they enable SAGE to generalize to novel objects and actions that are unseen during training.
-        </p>
-      <br> 
-      <img src="static/images/refinement.png" alt="annotation" style="width: 80%; height: auto; display: block; margin: 0 auto;"/>
+      <img src="static/images/teaser.png" alt="annotation" style="width: 90%; height: auto; display: block; margin: 0 auto;"/>
     </div>
   </div>
 </section>
@@ -230,15 +224,18 @@
 <section class="hero is-small">
   <div class="hero-body" style="font-size: large;">
     <div class="container is-max-widescreen">
-      <h2 class="title is-3" style="width: 100%; margin: 0 auto;">Model Architecture</h2>
+      <h2 class="title is-3" style="width: 100%; margin: 0 auto;">ObjectMLLM</h2>
       <br>
       <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          To recognize frame-wise object states in videos, we train a Transformer to produce contextualized visual embeddings for the video frames.
-          The visual embeddings are then matched with the object state embeddings provided by SAGE.
-          We perform Viterbi Decoding, which leverages the temporal constraints between the object states, to derive frame-level object state predictions.
-        </p>
-        <br> 
-      <img src="static/images/model.png" alt="annotation" style="width: 70%; height: auto; display: block; margin: 0 auto;"/>
+        We propose <b>ObjectMLLM</b>, a multimodal framework integrating <b>distributed visual embeddings, video frame captions, and object bounding boxes</b> into one MLLM.
+        With external object detection and tracking models, we capture object bounding boxes from videos.
+        Then we feed the object labels, timestamps, and bounding boxes to the model. The model backbone can be either an LLM (e.g., LLaMA3) or MLLM (e.g., VideoLLaMA2).
+        <br>
+        We explore two choices of bounding box adapters.
+        The language-based representation naturally represents the bounding boxes as texts, while the embedding projector learns a projection from the bounding box space to LLM input space.
+      </p>
+      <br> 
+      <img src="static/images/model.png" alt="annotation" style="width: 90%; height: auto; display: block; margin: 0 auto;"/>
     </div>
   </div>
 </section>
@@ -247,29 +244,29 @@
 <section class="hero is-small">
   <div class="hero-body" style="font-size: large;">
     <div class="container is-max-widescreen">
-      <h2 class="title is-3" style="width: 100%; margin: 0 auto;">Experiment Results</h2>
+      <h2 class="title is-3" style="width: 100%; margin: 0 auto;">Experiments</h2>
       <br>
       <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          We evaluate SAGE and baseline methods in three setting: a) with action and object labels provided, b) only action label provided, and c) no action and object label provided.
-          For fair comparison, we use CLIP as the VLM encoder for all of LFC, VidOSC, MTC, and SAGE.
-          Our method outperforms the baseline in all settings.
+          <b>Language-based representation adapts bounding boxes better.</b>
+          We evaluate the two choices of obejct bounding box adapter across various sizes of training data.
+          The language-based representation consistently outperforms the embedding projector, indicating its effectiveness and data-efficiency.
         </p>
       <br> 
-      <img src="static/images/main_results.png" alt="annotation" style="width: 70%; height: auto; display: block; margin: 0 auto;"/>
+      <img src="static/images/adapter_comparison.png" alt="annotation" style="width: 50%; height: auto; display: block; margin: 0 auto;"/>
       <br>
       <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          We further evaluate the model generalization to objects and actions that are unseen during training.
-          SAGE shows superior generalizability compared to the baseline models.
+          <b>Object bounding boxes improve spatio-temporal understanding.</b>
+          We evaluate ObjectMLLM on five Video QA benchmarks with different combinations of representations.
+          The object bounding boxes especially improve the model performance on CLEVRER-MC, Perception Test, and STAR, which have questions related to spatio-temporal object configurations.
       </p>
       <br> 
-      <img src="static/images/generalization_results.png" alt="annotation" style="width: 80%; height: auto; display: block; margin: 0 auto;"/>
+      <img src="static/images/modality_ablation.png" alt="annotation" style="width: 70%; height: auto; display: block; margin: 0 auto;"/>
       <br>
       <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          When using VideoCLIP as the VLM encoder in our method, SAGE achieves the state-of-the-art performance on the object state recognition task.
-          Especially, SAGE outperforms previous state-of-the-art in novel state recognition on ChangeIt (Open-world) by a large margin of 14.6%.
+          <b>Main results.</b> Compared with previous works, ObjectMLLM outperforms them by a large margin on CLEVRER-MC and Perception Test, and achieves comparable performance on other benchmarks.
       </p>
       <br> 
-      <img src="static/images/videoclip_results.png" alt="annotation" style="width: 80%; height: auto; display: block; margin: 0 auto;"/>
+      <img src="static/images/main_results.png" alt="annotation" style="width: 80%; height: auto; display: block; margin: 0 auto;"/>
     </div>
   </div>
 </section>
@@ -280,16 +277,162 @@
     <div class="container is-max-widescreen">
       <h2 class="title is-3" style="width: 100%; margin: 0 auto;">Qualitative Results</h2>
       <br>
-      <p style="text-align: justify; width: 90%; margin: 0 auto;">
-          We show the visual concepts that are aligned to the video frames by our model.
-          The <span style="color: blue; font-weight: bold;">blue</span> and <span style="color: green; font-weight: bold;">green</span> concepts are correctly aligned to the frame,
-          while the <span style="color: green; font-weight: bold;">green</span> ones are shared between different object states.
-          The <span style="color: red; font-weight: bold;">red</span> concepts are wrongly aligned.
-          Our model aligned the video frames with most of their correct visual concepts.
-          And this capability is generalizable to novel objects and actions.
+      <h3 class="title is-4 has-text-centered">CLEVRER</h3>
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/clevrer.mp4" type="video/mp4"> <!-- clevrer_video_13709_599 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/clevrer_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> How many moving metal objects are there?<br>
+        <b>(A)</b> 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>(B)</b> 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>(C)</b> 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="color: green;"><b>(D)</b> 4 &check;</span><br>
       </p>
-      <br> 
-      <img src="static/images/qualatative_results.png" alt="annotation" style="width: 90%; height: auto; display: block; margin: 0 auto;"/>
+      <h3 class="title is-4 has-text-centered">Perception Test</h3>
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_1.mp4" type="video/mp4"> <!-- PT_video_171_0 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_1_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> What happened once the person removed an object from the tabletop?<br>
+        <b>(A)</b> The launched object fell off the table.<br>
+        <span style="color: green;"><b>(B)</b> The launched object did not fall off the table. &check;</span><br>
+        <b>(C)</b> No object was removed from the tabletop.<br>
+      </p>
+      <br>
+
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_2.mp4" type="video/mp4"> <!-- PT_video_145_0 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_2_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> Is the camera moving or static?<br>
+        <span style="color: green;"><b>(A)</b> Moving. &check;</span><br>
+        <b>(B)</b> Static or shaking.<br>
+        <b>(C)</b> I don't know.<br>
+      </p>
+      <br>
+
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_3.mp4" type="video/mp4"> <!-- PT_video_1539_0 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_3_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> Is the configuration of objects likely to be stable after placing the last object?<br>
+        <b>(A)</b> One cannot judge the stability of this configuration.<br>
+        <span style="color: green;"><b>(B)</b> The configuration is likely to be stable. &check;</span><br>
+        <b>(C)</b> The configuration is likely to be unstable.<br>
+      </p>
+      <br>
+
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_4.mp4" type="video/mp4"> <!-- PT_video_5497_3 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_4_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> What object does the person use to hit other objects?<br>
+        <b>(A)</b> pen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <b>(B)</b> fork&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="color: green;"><b>(C)</b> spoon &check;</span><br>
+      </p>
+      <br>
+
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_5.mp4" type="video/mp4"> <!-- PT_video_394_1 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/ptest_5_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> Is there something unusual about the way the person ties the shoe laces?<br>
+        <b>(A)</b> The person ties correctly the left shoe lace, but not the right shoe lace.<br>
+        <span style="color: red;"><b>(B)</b> The person ties the shoe laces normally. &#10060;</span><br>
+        <span style="color: green;"><b>(C)</b> The person ties the lace of the left shoe to the lace of the right shoe.</span><br>
+      </p>
+      <br>
+
+      <h3 class="title is-4 has-text-centered">NExT-QA</h3>
+      <div class="columns is-centered" style="width: 80%; margin: 0 auto;">
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/nextqa.mp4" type="video/mp4"> <!-- nextqa_5256928210_9 -->
+          </video>
+          <h3 class="subtitle is-5">Input Video</h3>
+        </div>
+        <div class="column is-half has-text-centered">
+          <video controls width="90%">
+            <source src="static/videos/nextqa_box.mp4" type="video/mp4">
+          </video>
+          <h3 class="subtitle is-5">Detected and Tracked Objects</h3>
+        </div>
+      </div>
+      <p style="text-align: justify; width: 80%; margin: 0 auto;">
+        <b>Question:</b> Why is the man kneeling down on the floor?<br>
+        <span style="color: red;"><b>(A)</b> Feed the dog. &#10060;</span><br>
+        <b>(B)</b> Crawling around.<br>
+        <b>(C)</b> Let kids walk through.<br>
+        <b>(D)</b> Fell down.<br>
+        <span style="color: green;"><b>(E)</b> Pet the dog.</span><br>
+      </p>
     </div>
   </div>
 </section>
@@ -299,15 +442,15 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-widescreen">
       <h2 class="title">BibTeX</h2>
-      TBD
-      <!-- pre><code>@misc{krishnan2023spacewalk18,
-        title={Spacewalk-18: A Benchmark for Multimodal and Long-form Procedural Video Understanding in Novel Domains}, 
-        author={Zitian Tang and Rohan Myer Krishnan and Zhiqiu Yu and Chen Sun},
-        year={2023},
-        eprint={2311.18773},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
-  }</code></pre-->
+      <pre><code>@misc{tang2025objectmllm,
+    title={How Can Objects Help Video-Language Understanding?}, 
+    author={Zitian Tang and Shijie Wang and Junho Cho and Jaewook Yoo and Chen Sun},
+    year={2025},
+    eprint={2504.07454},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+  </code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
