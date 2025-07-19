@@ -9,7 +9,7 @@ How Can Objects Help Video-Language Understanding?
 
 [Zitian Tang](https://zitiantang.github.io/), [Shijie Wang](https://wang-sj16.github.io/), [Junho Cho](), [Jaewook Yoo](), [Chen Sun](https://chensun.me/index.html)
 
-[![Project Page](https://img.shields.io/badge/Project_Page-green)]()
+[![Project Page](https://img.shields.io/badge/Project_Page-green)](https://brown-palm.github.io/ObjectMLLM/)
 [![arXiv](https://img.shields.io/badge/Arxiv-2504.07454-AD1C18.svg?logo=arXiv)](https://arxiv.org/abs/2504.07454)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/brown-palm/ObjectMLLM/blob/main/LICENSE)
 <br>
